@@ -1,0 +1,165 @@
+/* ==========================================================================
+   lw Core Variables
+   ========================================================================== */
+
+/**
+ * Core Variables are the fundamental - atomic level - declarations that
+ * support the entire system
+ *
+ * All critcal style declarations in the DS should refer to this core when
+ * possible except when styles only pertain to a respective component
+ *
+ * TODO: Add more core variables and break out mixins
+ **/
+
+
+/* Core System Color Variables
+  ========================================================================== */
+/* Greys / Tints */
+$asphalt: #1F2532;
+$cadet: #465561;
+$slate: #7F94A2;
+$geyser: #D8DDE6;
+$steam: #F5F7F9;
+$white: #FFFFFF;
+
+/* Primary / Info Blues */
+$night: #0a2240;
+$evening: #28438e;
+$noon: #026bf4;
+$morning: #00aae7;
+
+/* Positive / Success Greens */
+$pine: #10572F;
+$ivy: #208052;
+$grass: #26CC6D;
+$mint: #E9F9F0;
+
+/* Warning / Caution Yellows */
+$mocha: #6F4704;
+$hazelnut: #966C24;
+$butterscotch: #FFB63D;
+$vanilla: #FFF4E2;
+
+/*  Danger / Error Reds */
+$cranberry: #990112;
+$cherry: #C83426;
+$strawberry: #F55D50;
+$teaberry: #FEE7E5;
+
+/* neutral accents */
+$plum: #25067A;
+$fig: #4C1ECD;
+$grape: #703EFA;
+$lavender: #F0EBFF;
+
+
+/* Core Elevation Box-Shadow Levels  - Variables and Mixins
+  ========================================================================== */
+/* No Elevation */
+$level-0: none;
+
+.level-0 {
+  box-shadow: $level-0;
+}
+
+/*  Low Elevation Level 1 */
+$level-1: 0px 2px 4px 0px rgba($asphalt, .5);
+
+.level-1 {
+  box-shadow: $level-1;
+}
+
+/*  Mid Elevation Level 2 */
+$level-2: 0px 6px 12px 0px rgba($asphalt, .5);
+
+.level-2 {
+  box-shadow: $level-2;
+}
+
+/*  Upper Elevation Level 3 */
+$level-3: 0px 10px 16px 0px rgba($asphalt, .5);
+
+.level-3 {
+  box-shadow: $level-3;
+}
+
+/* Top Elevation Level 4 */
+$level-4: 0px 16px 30px 0px rgba($asphalt, .5);
+
+.level-4 {
+  box-shadow: $level-4;
+}
+
+
+/* System-wide Core Variables
+*  ==========================================================================
+*
+* Prefix all variables below with $core- to make them easy to identify when
+* used in component files.
+*/
+@font-face {
+  font-family: "Catamaran-Bold";
+  font-display: block;
+  src: url('../../assets/fonts/Catamaran/Catamaran-Black.ttf');
+}
+
+@font-face {
+  font-family: "Catamaran-Regular";
+  font-display: block;
+  src: url('../../assets/fonts/Catamaran/Catamaran-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Catamaran-Light";
+  font-display: block;
+  src: url('../../assets/fonts/Catamaran/Catamaran-Thin.ttf');
+}
+
+@font-face {
+  font-family: "Titillium-Bold";
+  font-display: block;
+  src: url('../../assets/fonts/Titillium/TitilliumWeb-SemiBold.ttf');
+}
+@font-face {
+  font-family: "Titillium-Regular";
+  font-display: block;
+  src: url('../../assets/fonts/Titillium/TitilliumWeb-Regular.ttf');
+}
+@font-face {
+  font-family: "Titillium-Light";
+  font-display: block;
+  src: url('../../assets/fonts/Titillium/TitilliumWeb-ExtraLight.ttf');
+}
+
+/* Core Font Stack */
+$core-font-family: "Catamaran-Regular", "Arial", sans-serif;
+$catamaran-bold: "Catamaran-Bold", "Arial", sans-serif;
+$catamaran-light: "Catamaran-Light", "Arial", sans-serif;
+
+$titillium-regular: "Titillium-Regular", "Arial", sans-serif;
+$titillium-bold: "Titillium-Bold", "Arial", sans-serif;
+$titillium-light: "Titillium-Light", "Arial", sans-serif;
+
+$core-font-size: 16px;
+$core-line-height: 1.5;
+
+/**
+* Base Animation Timing
+* Intentionally left out out specific property to transition on. This enables
+* the freedom to use this variable in conjunction with declaring a specific
+* property. It will also default to 'all' if no specific property is declared.
+**/
+$core-animation-base: .5s ease-in-out;
+
+
+/* Base Border Radius */
+$core-border-radius: 5px;
+
+
+/*  Ellipsis Mixin*/
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

@@ -1,0 +1,26 @@
+title: luke-woodward
+email: lukewdwrd.dev@gmail.com
+description: personal site
+url: "lukewalt.me"
+github_username:  lukewalt
+
+# Build settings
+markdown: kramdown
+source: src
+destination: docs
+plugins:
+  - jekyll-tidy
+
+sass:
+  sass_dir: styles/**/*
+  style: compressed
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

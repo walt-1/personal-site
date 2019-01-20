@@ -1,0 +1,13 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Luke {% if page.title %} | {{ page.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <link rel="icon" href="http://pngimages.net/sites/default/files/hand-painted--sun-png-image-9989.png" type="image/x-icon" />
+  
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/aos/aos.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>

@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Nav
+   ========================================================================== */
+
+
+/* Nav Components
+   ========================================================================== */
+
+.lw-nav {
+  background-color: $night !important;
+  
+  ul {
+    padding: 0px;
+    list-style: none;
+  }
+  
+  li {
+    height: auto;
+    padding: 30px !important;
+    a {
+      color: $white !important;
+      border-bottom: .7px solid transparent;
+      font-family: $titillium-bold;
+      text-transform: capitalize;
+      letter-spacing: 1px;
+
+      &:hover,
+      &:focus,
+      &:active
+       {
+        border-bottom: .7px solid $white;
+        text-decoration: none;
+        background-color: transparent;
+      }
+    }
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+}

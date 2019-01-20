@@ -1,0 +1,183 @@
+/* ==========================================================================
+   lw Global Utilities
+   ========================================================================== */
+
+/**
+ * Global Utilities address specific or niche needs for one-off solutions
+ *
+ * TODO: This is a todo statement that describes an atomic task to be completed
+ *   at a later date. It wraps after 80 characters and following lines are
+ *   indented by 2 spaces.
+ */
+
+
+/* Width Utilities
+ ========================================================================== */
+.lw-width--10 {
+  width: 10% !important;
+}
+
+.lw-width--20 {
+  width: 20% !important;
+}
+
+.lw-width--30 {
+  width: 30% !important;
+}
+
+.lw-width--40 {
+  width: 40% !important;
+}
+
+.lw-width--50 {
+  width: 50% !important;
+}
+
+.lw-width--60 {
+  width: 60% !important;
+}
+
+.lw-width--70 {
+  width: 70% !important;
+}
+
+.lw-width--80 {
+  width: 80% !important;
+}
+
+.lw-width--90 {
+  width: 90% !important;
+}
+
+.lw-width--100 {
+  width: 100% !important;
+}
+
+/* Height Utilities
+ ========================================================================== */
+.lw-height--half {
+  height: 50vh !important;
+}
+
+.lw-height--full {
+  height: 100vh !important;
+}
+
+
+/* Background Color Utilities
+ ========================================================================== */
+/* Greys/Tints */
+.lw-background--asphalt {
+  background-color: $asphalt  !important;
+}
+
+.lw-background--cadet {
+  background-color: $cadet  !important;
+}
+
+.lw-background--slate {
+  background-color: $slate  !important;
+}
+
+.lw-background--geyser {
+  background-color: $geyser  !important;
+}
+
+.lw-background--steam {
+  background-color: $steam  !important;
+}
+
+.lw-background--white {
+  background-color: $white  !important;
+}
+
+/* Primary/Blues */
+.lw-background--night {
+  background-color: $night  !important;
+}
+
+.lw-background--evening {
+  background-color: $evening  !important;
+}
+
+.lw-background--noon {
+  background-color: $noon  !important;
+}
+
+.lw-background--morning {
+  background-color: $morning  !important;
+}
+
+/* Success/Greens */
+.lw-background--pine {
+  background-color: $pine  !important;
+}
+
+.lw-background--ivy {
+  background-color: $ivy  !important;
+}
+
+.lw-background--grass {
+  background-color: $grass  !important;
+}
+
+.lw-background--mint {
+  background-color: $mint  !important;
+}
+
+/* Warning/Yellows */
+.lw-background--mocha {
+  background-color: $mocha  !important;
+}
+
+.lw-background--hazelnut {
+  background-color: $hazelnut  !important;
+}
+
+.lw-background--butterscotch {
+  background-color: $butterscotch  !important;
+}
+
+.lw-background--vanilla {
+  background-color: $vanilla  !important;
+}
+
+/* Danger/Reds */
+.lw-background--cranberry {
+  background-color: $cranberry  !important;
+}
+
+.lw-background--cherry {
+  background-color: $cherry  !important;
+}
+
+.lw-background--strawberry {
+  background-color: $strawberry  !important;
+}
+
+.lw-background--teaberry {
+  background-color: $teaberry  !important;
+}
+
+/* Nuetral Accents */
+.lw-background--plum {
+  background-color: $plum;
+}
+
+.lw-background--fig {
+  background-color: $fig;
+}
+
+.lw-background--grape {
+  background-color: $grape;
+}
+
+.lw-background--lavender {
+  background-color: $lavender;
+}
+
+/* Border Radius
+ ========================================================================== */
+.lw-border-radius-50 {
+  border-radius: 50%;
+}

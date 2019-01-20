@@ -1,0 +1,360 @@
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+   
+   
+   
+/* Component Variables and Mixins
+	 ========================================================================== */
+$heading-padding-bottom: 10px;
+
+/* Browser Reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+small {
+  margin: 0;
+  padding: 0;
+}
+
+/* Type Components
+   ========================================================================== */
+.lw-text--display-1,
+.lw-text--display-2,
+.lw-text--display-3,
+.lw-text--display-4,
+.lw-text--display-5,
+.lw-text--display-6,
+.lw-text--subhead,
+.lw-text--body,
+.lw-text--caption,
+.lw-text--support {
+  display: block;
+  line-height: $core-line-height;
+  font-weight: 400;
+  color: $asphalt;
+}
+
+
+/* Type Component Definitions */
+.lw-text--display-1 {
+  font-weight: 300;
+  font-size: 112px;
+  line-height: 100px;
+  padding-bottom: $heading-padding-bottom;
+}
+
+.lw-text--display-2 {
+  font-size: 45px;
+  line-height: 60px;
+  padding-bottom: $heading-padding-bottom;
+}
+
+.lw-text--display-3 {
+  font-size: 34px;
+  line-height: 40px;
+  padding-bottom: $heading-padding-bottom;
+}
+
+.lw-text--display-4 {
+  font-size: 26px;
+  line-height: 32px;
+  padding-bottom: $heading-padding-bottom;
+}
+
+.lw-text--display-5 {
+  font-size: 22px;
+  line-height: 32px;
+  padding-bottom: $heading-padding-bottom;
+}
+
+.lw-text--display-6 {
+  font-size: 18px;
+  line-height: 27px;
+  padding-bottom: 5px;
+}
+
+.lw-text--body {
+  font-size: 16px;
+  line-height: 26px;
+  padding-bottom: $heading-padding-bottom;
+}
+
+.lw-text--caption {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.lw-text--tag {
+  font-size: 14px;
+  line-height: 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.lw-text--support {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+
+// Font Transforms
+//
+.lw-text--t-reg {
+  font-family: $titillium-regular !important;
+}
+
+.lw-text--t-thin {
+  font-family: $titillium-light !important;
+}
+
+.lw-text--t-bold {
+  font-family: $titillium-bold !important;
+}
+
+.lw-text--c-thin {
+  font-family: $catamaran-light !important;
+}
+
+.lw-text--c-bold {
+  font-family: $catamaran-bold !important;
+}
+
+
+/* DOM Heirarchy Bindings */
+h1 {
+  @extend.lw-text--display-1;
+  @media only screen and (max-width: 600px) {
+    font-size: 55px;
+    line-height: 55px;
+}
+}
+
+h2 {
+  @extend.lw-text--display-2;
+  @media only screen and (max-width: 600px) {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+h3 {
+  @extend.lw-text--display-3;
+  @extend.lw-text--t-thin;
+  @media only screen and (max-width: 600px) {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
+h4 {
+  @extend.lw-text--display-4;
+}
+
+h5 {
+  @extend.lw-text--display-5;
+  @extend.lw-text--t-bold;
+}
+
+h6 {
+  @extend.lw-text--display-6;
+}
+
+p {
+  @extend.lw-text--body;
+}
+
+small {
+  @extend.lw-text--support;
+}
+
+
+/* TYPE MODIFIERS
+	 ========================================================================== */
+
+// WEIGHT AND STYLE MODIFIERS
+.lw-text--light {
+  font-weight: lighter !important;
+  font-weight: 300 !important;
+}
+
+.lw-text--regular {
+  font-weight: normal !important;
+  font-weight: 400 !important;
+}
+
+.lw-text--semibold {
+  font-weight: bold !important;
+  font-weight: 600 !important;
+}
+
+.lw-text--bold {
+  font-weight: bold !important;
+  font-weight: 700 !important;
+}
+
+.lw-text--italic {
+  font-style: italic !important;
+}
+
+
+//
+//  COLOR MODIFIERS
+//
+// Greys/Tints
+.lw-text--asphalt {
+  color: $asphalt  !important;
+}
+
+.lw-text--cadet {
+  color: $cadet  !important;
+}
+
+.lw-text--slate {
+  color: $slate  !important;
+}
+
+.lw-text--geyser {
+  color: $geyser  !important;
+}
+
+.lw-text--steam {
+  color: $steam  !important;
+}
+
+.lw-text--white {
+  color: $white !important;
+}
+
+// Primary/Blues
+.lw-text--night {
+  color: $night  !important;
+}
+
+.lw-text--evening {
+  color: $evening  !important;
+}
+
+.lw-text--noon {
+  color: $noon  !important;
+}
+
+.lw-text--morning {
+  color: $morning  !important;
+}
+
+// Success/Greens
+.lw-text--pine {
+  color: $pine  !important;
+}
+
+.lw-text--ivy {
+  color: $ivy  !important;
+}
+
+.lw-text--grass {
+  color: $grass  !important;
+}
+
+.lw-text--mint {
+  color: $mint  !important;
+}
+
+// Warning/Yellows
+.lw-text--mocha {
+  color: $mocha  !important;
+}
+
+.lw-text--hazelnut {
+  color: $hazelnut  !important;
+}
+
+.lw-text--butterscotch {
+  color: $butterscotch  !important;
+}
+
+.lw-text--vanilla {
+  color: $vanilla  !important;
+}
+
+// Danger/Reds
+.lw-text--cranberry {
+  color: $cranberry  !important;
+}
+
+.lw-text--cherry {
+  color: $cherry  !important;
+}
+
+.lw-text--strawberry {
+  color: $strawberry  !important;
+}
+
+.lw-text--teaberry {
+  color: $teaberry  !important;
+}
+
+// Danger/Reds
+.lw-text--cranberry {
+  color: $cranberry  !important;
+}
+
+.lw-text--cherry {
+  color: $cherry  !important;
+}
+
+.lw-text--strawberry {
+  color: $strawberry  !important;
+}
+
+.lw-text--teaberry {
+  color: $teaberry  !important;
+}
+
+// Danger/Reds
+.lw-text--plum {
+  color: $plum  !important;
+}
+
+.lw-text--fig {
+  color: $fig  !important;
+}
+
+.lw-text--grape {
+  color: $grape  !important;
+}
+
+.lw-text--lavender {
+  color: $lavender  !important;
+}
+
+
+//
+// Transforms
+//
+.lw-text--transform-capitalize {
+  text-transform: capitalize !important;
+}
+
+.lw-text--transform-uppercase {
+  text-transform: uppercase !important;
+}
+
+.lw-text--transform-lowercase {
+  text-transform: lowercase !important;
+}
+
+
+/* Alignment */
+.lw-text--align-center {
+  text-align: center;
+}
+
+.lw-text--align-right {
+  text-align: right;
+}

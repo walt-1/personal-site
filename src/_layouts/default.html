@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+    {% include nav.html %}
+    <main aria-label="Content">
+      <!-- Each page's content will be injected here  -->
+      {{ content }}
+    </main>
+
+    <!-- Used to manage all script tags being included -->
+    {% include scripts.html %}
+  </body>
+</html>
