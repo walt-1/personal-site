@@ -36,7 +36,9 @@ body {
 /* Standardizes the focus state of all elements for visual accessibility, */
 /* especially when tabbing through the interface */
 :focus {
-  background-color: $morning;
+  background-color: transparent;
+
+  outline:1px dashed $asphalt;
 }
 
 ::selection {
