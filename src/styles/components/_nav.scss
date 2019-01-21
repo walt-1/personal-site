@@ -3,6 +3,9 @@
    ========================================================================== */
 
 
+  $nav-font-size: 16px;
+  $nav-font-padding: 30px !important;
+
 /* Nav Components
    ========================================================================== */
 
@@ -12,30 +15,57 @@
   ul {
     padding: 0px;
     list-style: none;
+    
+    @media only screen and (max-width: 991px) {
+      height: 100vh;
+      text-align: center;
+      font-size: $nav-font-size * 1.5;
+    }
   }
   
   li {
     height: auto;
-    padding: 30px !important;
     a {
+      display: block;
+      width: 100%;
       color: $white !important;
+      padding: $nav-font-padding;
       border-bottom: .7px solid transparent;
       font-family: $titillium-bold;
+      font-size: $nav-font-size;
       text-transform: capitalize;
       letter-spacing: 1px;
 
+      
       &:hover,
       &:focus,
-      &:active
-       {
-        border-bottom: .7px solid $white;
-        text-decoration: none;
+      &:active {
         background-color: transparent;
+        text-decoration: none;
+        border-bottom: .7px solid $white;
+      }
+      
+      text:hover,
+      text:focus,
+      text:active {
+        transition: $core-animation-base;
+      }
+
+      @media only screen and (max-width: 991px) {
+        text-align: center;
+        font-size: $nav-font-size * 1.5
       }
     }
   }
 
   .navbar-brand {
     display: none;
+  }
+  .navbar-toggler {
+    border:none;
+    margin-left: auto;
+    &:focus {
+      background-color: transparent;
+    }
   }
 }
