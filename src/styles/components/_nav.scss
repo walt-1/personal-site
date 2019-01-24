@@ -25,11 +25,11 @@
   
   li {
     height: auto;
+    padding: $nav-font-padding;
     a {
       display: block;
       width: 100%;
       color: $white !important;
-      padding: $nav-font-padding;
       border-bottom: .7px solid transparent;
       font-family: $titillium-bold;
       font-size: $nav-font-size;
