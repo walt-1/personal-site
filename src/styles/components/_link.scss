@@ -1,0 +1,15 @@
+.lw-link {
+  text-decoration: none !important;
+  border-bottom: 3px solid $noon;
+  background-color: transparent;
+  color: $noon;
+  padding: 0px 5px;
+  
+  &:hover,
+  &:active,
+  &:focus {
+    color: $evening;
+    text-decoration: none !important;
+    background-color: $morning;
+  }
+}
