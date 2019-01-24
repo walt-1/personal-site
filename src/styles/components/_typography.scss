@@ -137,6 +137,7 @@ h1 {
 
 h2 {
   @extend.lw-text--display-2;
+  @extend.lw-text--t-thin;
   @media only screen and (max-width: 600px) {
     font-size: 40px;
     line-height: 40px;
@@ -145,7 +146,7 @@ h2 {
 
 h3 {
   @extend.lw-text--display-3;
-  @extend.lw-text--t-thin;
+  @extend.lw-text--t-bold;
   @media only screen and (max-width: 600px) {
     font-size: 30px;
     line-height: 30px;
