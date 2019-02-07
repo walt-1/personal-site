@@ -10,8 +10,13 @@
    ========================================================================== */
 
 .lw-nav {
-  background-color: $night !important;
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: $white !important;
+  z-index: 1021;
+
   ul {
     padding: 0px;
     list-style: none;
@@ -30,20 +35,20 @@
     a {
       display: block;
       width: 100%;
-      color: $white !important;
+      color: $cadet !important;
       border-bottom: .7px solid transparent;
       font-family: $titillium-bold;
       font-size: $nav-font-size;
       text-transform: capitalize;
       letter-spacing: 1px;
-
+      padding: 1px 5px;
       
       &:hover,
       &:focus,
       &:active {
         background-color: transparent;
         text-decoration: none;
-        border-bottom: .7px solid $white;
+        border-bottom: .7px solid $noon;
       }
       
       text:hover,

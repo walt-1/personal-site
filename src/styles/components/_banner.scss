@@ -2,5 +2,24 @@
 
 
 .lw-banner--full {
-  background: linear-gradient($night, $evening);
+  // background: linear-gradient($night, $evening);
+  position: fixed;
+  top: 84px;
+  left: 0;
+  right: 0;
+}
+
+.lw-site--section {
+  height: 120vh;
+  margin: 100px 0px;
+
+}
+
+.lw-content {
+  position: absolute;
+  top: 100vh;
+  left: 45%;
+  right: 0;
+  padding: 5%;
+  border-radius: $core-border-radius;
 }
