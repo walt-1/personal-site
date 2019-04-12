@@ -10,8 +10,13 @@
    ========================================================================== */
 
 .lw-nav {
-  background-color: $night !important;
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: $white !important;
+  z-index: 1021;
+
   ul {
     padding: 0px;
     list-style: none;
@@ -26,23 +31,25 @@
   li {
     height: auto;
     padding: $nav-font-padding;
+    
     a {
       display: block;
       width: 100%;
-      color: $white !important;
-      border-bottom: .7px solid transparent;
+      color: $cadet !important;
+      border-bottom: 1px solid transparent;
       font-family: $titillium-bold;
       font-size: $nav-font-size;
       text-transform: capitalize;
       letter-spacing: 1px;
-
+      padding: 1px 5px;
       
       &:hover,
       &:focus,
       &:active {
         background-color: transparent;
         text-decoration: none;
-        border-bottom: .7px solid $white;
+        color: $noon !important;
+        border-bottom: 1px solid $noon;
       }
       
       text:hover,
@@ -53,7 +60,16 @@
 
       @media only screen and (max-width: 991px) {
         text-align: center;
-        font-size: $nav-font-size * 1.5
+        font-size: $nav-font-size * 1.5;
+        
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: transparent;
+          text-decoration: none;
+          color: $noon !important;
+          border-bottom: transparent;
+        }
       }
     }
   }

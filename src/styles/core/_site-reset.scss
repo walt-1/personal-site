@@ -27,7 +27,6 @@ body {
   font-family: $core-font-family;
   font-size: $core-font-size;
   background-color: $white;
-  color: $asphalt;
   line-height: $core-line-height;
   -webkit-text-size-adjust: 100%;
   /* Prevent adjustments of font size after orientation changes in iOS. */
@@ -37,7 +36,6 @@ body {
 /* especially when tabbing through the interface */
 :focus {
   background-color: transparent;
-
   outline:1px dashed $asphalt;
 }
 
