@@ -1,6 +1,6 @@
 .lw-link {
   text-decoration: none !important;
-  border-bottom: 3px solid $noon;
+  border-bottom: 1px solid $noon;
   background-color: transparent;
   color: $noon;
   padding: 0px 5px;
@@ -10,6 +10,5 @@
   &:focus {
     color: $evening;
     text-decoration: none !important;
-    background-color: $morning;
   }
 }

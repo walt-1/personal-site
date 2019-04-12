@@ -36,7 +36,7 @@
       display: block;
       width: 100%;
       color: $cadet !important;
-      border-bottom: .7px solid transparent;
+      border-bottom: 1px solid transparent;
       font-family: $titillium-bold;
       font-size: $nav-font-size;
       text-transform: capitalize;
@@ -48,7 +48,8 @@
       &:active {
         background-color: transparent;
         text-decoration: none;
-        border-bottom: .7px solid $noon;
+        color: $noon !important;
+        border-bottom: 1px solid $noon;
       }
       
       text:hover,
@@ -59,7 +60,16 @@
 
       @media only screen and (max-width: 991px) {
         text-align: center;
-        font-size: $nav-font-size * 1.5
+        font-size: $nav-font-size * 1.5;
+        
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: transparent;
+          text-decoration: none;
+          color: $noon !important;
+          border-bottom: transparent;
+        }
       }
     }
   }
