@@ -10,7 +10,7 @@
  *   indented by 2 spaces.
  */
 
- 
+
 /* Width Utilities
  ========================================================================== */
 .lw-margin--y-200 {
@@ -87,95 +87,95 @@
  ========================================================================== */
 /* Greys/Tints */
 .lw-background--asphalt {
-  background-color: $asphalt  !important;
+  background-color: $asphalt !important;
 }
 
 .lw-background--cadet {
-  background-color: $cadet  !important;
+  background-color: $cadet !important;
 }
 
 .lw-background--slate {
-  background-color: $slate  !important;
+  background-color: $slate !important;
 }
 
 .lw-background--geyser {
-  background-color: $geyser  !important;
+  background-color: $geyser !important;
 }
 
 .lw-background--steam {
-  background-color: $steam  !important;
+  background-color: $steam !important;
 }
 
 .lw-background--white {
-  background-color: $white  !important;
+  background-color: $white !important;
 }
 
 /* Primary/Blues */
 .lw-background--night {
-  background-color: $night  !important;
+  background-color: $night !important;
 }
 
 .lw-background--evening {
-  background-color: $evening  !important;
+  background-color: $evening !important;
 }
 
 .lw-background--noon {
-  background-color: $noon  !important;
+  background-color: $noon !important;
 }
 
 .lw-background--morning {
-  background-color: $morning  !important;
+  background-color: $morning !important;
 }
 
 /* Success/Greens */
 .lw-background--pine {
-  background-color: $pine  !important;
+  background-color: $pine !important;
 }
 
 .lw-background--ivy {
-  background-color: $ivy  !important;
+  background-color: $ivy !important;
 }
 
 .lw-background--grass {
-  background-color: $grass  !important;
+  background-color: $grass !important;
 }
 
 .lw-background--mint {
-  background-color: $mint  !important;
+  background-color: $mint !important;
 }
 
 /* Warning/Yellows */
 .lw-background--mocha {
-  background-color: $mocha  !important;
+  background-color: $mocha !important;
 }
 
 .lw-background--hazelnut {
-  background-color: $hazelnut  !important;
+  background-color: $hazelnut !important;
 }
 
 .lw-background--butterscotch {
-  background-color: $butterscotch  !important;
+  background-color: $butterscotch !important;
 }
 
 .lw-background--vanilla {
-  background-color: $vanilla  !important;
+  background-color: $vanilla !important;
 }
 
 /* Danger/Reds */
 .lw-background--cranberry {
-  background-color: $cranberry  !important;
+  background-color: $cranberry !important;
 }
 
 .lw-background--cherry {
-  background-color: $cherry  !important;
+  background-color: $cherry !important;
 }
 
 .lw-background--strawberry {
-  background-color: $strawberry  !important;
+  background-color: $strawberry !important;
 }
 
 .lw-background--teaberry {
-  background-color: $teaberry  !important;
+  background-color: $teaberry !important;
 }
 
 /* Nuetral Accents */
@@ -204,5 +204,11 @@
 .lw-list-style--none {
   li {
     list-style: none;
+  }
+}
+
+.lw-position--center {
+  @media only screen and (max-width: 575px) {
+    text-align: center;
   }
 }
