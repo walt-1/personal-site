@@ -99,21 +99,21 @@ $level-4: 0px 16px 30px 0px rgba($asphalt, .5);
 * used in component files.
 */
 @font-face {
-  font-family: "Catamaran-Bold";
+  font-family: "Assistant-Bold";
   font-display: block;
-  src: url('../../assets/fonts/Catamaran/Catamaran-Black.ttf');
+  src: url('../../assets/fonts/Assistant/Assistant-Bold.ttf');
 }
 
 @font-face {
-  font-family: "Catamaran-Regular";
+  font-family: "Assistant-Regular";
   font-display: block;
-  src: url('../../assets/fonts/Catamaran/Catamaran-Regular.ttf');
+  src: url('../../assets/fonts/Assistant/Assistant-Regular.ttf');
 }
 
 @font-face {
-  font-family: "Catamaran-Light";
+  font-family: "Assistant-Light";
   font-display: block;
-  src: url('../../assets/fonts/Catamaran/Catamaran-Thin.ttf');
+  src: url('../../assets/fonts/Assistant/Assistant-Light.ttf');
 }
 
 @font-face {
@@ -133,9 +133,9 @@ $level-4: 0px 16px 30px 0px rgba($asphalt, .5);
 }
 
 /* Core Font Stack */
-$core-font-family: "Catamaran-Regular", "Arial", sans-serif;
-$catamaran-bold: "Catamaran-Bold", "Arial", sans-serif;
-$catamaran-light: "Catamaran-Light", "Arial", sans-serif;
+$core-font-family: "Assistant-Light", "Arial", sans-serif;
+$assistant-bold: "Assistant-Bold", "Arial", sans-serif;
+$assistant-light: "Assistant-Light", "Arial", sans-serif;
 
 $titillium-regular: "Titillium-Regular", "Arial", sans-serif;
 $titillium-bold: "Titillium-Bold", "Arial", sans-serif;

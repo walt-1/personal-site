@@ -80,7 +80,7 @@ small {
 }
 
 .lw-text--body {
-  font-size: 16px;
+  font-size: $core-font-size;
   line-height: 26px;
   padding-bottom: $heading-padding-bottom;
 }
@@ -118,11 +118,11 @@ small {
 }
 
 .lw-text--c-thin {
-  font-family: $catamaran-light !important;
+  font-family: $assistant-light !important;
 }
 
 .lw-text--c-bold {
-  font-family: $catamaran-bold !important;
+  font-family: $assistant-bold !important;
 }
 
 
@@ -167,8 +167,7 @@ h6 {
 }
 
 p {
-  @extend.lw-text--display-6;
-  @extend.lw-text--t-reg;
+  @extend.lw-text--body;
 }
 
 small {
