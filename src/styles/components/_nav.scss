@@ -36,20 +36,20 @@
       display: block;
       width: 100%;
       color: $cadet !important;
-      border-bottom: 1px solid transparent;
+      border-bottom: 3px solid transparent;
       font-family: $titillium-bold;
       font-size: $nav-font-size;
       text-transform: capitalize;
-      letter-spacing: 1px;
+      letter-spacing: .5px;
       padding: 1px 5px;
       
       &:hover,
       &:focus,
       &:active {
-        background-color: transparent;
+        background-color: $morning;
         text-decoration: none;
         color: $noon !important;
-        border-bottom: 1px solid $noon;
+        border-bottom: 3px solid $noon;
       }
       
       text:hover,
@@ -68,7 +68,7 @@
           background-color: transparent;
           text-decoration: none;
           color: $noon !important;
-          border-bottom: transparent;
+          border-bottom: 3px solid transparent;
         }
       }
     }
