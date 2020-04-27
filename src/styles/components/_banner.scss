@@ -21,9 +21,11 @@
   right: 0;
   padding: 5%;
   border-radius: $core-border-radius;
-  background-color: $white;
+  background-color: $white;  
+
   @media (max-width: 991px) {
     left: 0;
+    padding: 16% 4% 4%;
   }
 }
 
@@ -31,5 +33,21 @@
   @media (min-width: 990px)and (max-width: 1260px) {
     font-size: 85px;
     margin-left: 8px;
+  }
+}
+
+.lw-about--banner {
+  display: flex;
+  margin-top: 12px;
+
+  .lw-about__content {
+    // float: right;
+    margin-left: 24px;
+  }
+
+  @media only screen and (max-width: 575px) {
+    flex-direction: column;
+    text-align: center;
+    margin: 0px auto;
   }
 }
