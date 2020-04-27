@@ -6,14 +6,22 @@ title: Home
 
 {% include banner.html%}
 
-<div class="mb-5 lw-content" id="projects">
+<div class="mb-5 lw-content" id="about">
 
+  <!-- ABOUT -->
   <div class="container">
-
-    <!-- PROJECTS -->
-    <div class="my-5">
+    {% include about.html %}
+  </div>
+  
+  <!-- PROJECTS -->
+  <div class="container mt-5" id="projects">
+    <div class="pt-5 mb-3">
       <h2 class="lw-text--t-bold">Projects</h2>
     </div>
+
+    {% include thehub.html %}
+
+    <hr class="lw-divider lw-width--90 my-5">
 
     {% include neutron.html %}
 
@@ -24,13 +32,6 @@ title: Home
     <hr class="lw-divider lw-width--90 my-5">
 
     {% include oas.html %}
-
-  </div>
-
-  <!-- ABOUT -->
-  <div class="container" id="about">
-
-    {% include about.html %}
 
   </div>
 
