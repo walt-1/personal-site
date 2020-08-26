@@ -3,8 +3,8 @@
    ========================================================================== */
 
 
-  $nav-font-size: 16px;
-  $nav-font-padding: 30px !important;
+  $nav-font-size: 14px;
+  $nav-font-padding: 30px 15px !important;
 
 /* Nav Components
    ========================================================================== */
@@ -41,7 +41,7 @@
       width: 100%;
       color: $cadet !important;
       border-bottom: 3px solid transparent;
-      font-family: $titillium-bold;
+      font-family: monospace;
       font-size: $nav-font-size;
       text-transform: capitalize;
       letter-spacing: .5px;
